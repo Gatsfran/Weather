@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="547.0" prefWidth="600.0" style="-fx-background-color: #333;" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <AnchorPane layoutX="-7.0" layoutY="-4.0" prefHeight="122.0" prefWidth="607.0" style="-fx-background-color: black;">
+         <children>
+            <Text fill="WHITE" layoutX="106.0" layoutY="80.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Погодное приложение">
+               <font>
+                  <Font name="Arial Black" size="37.0" />
+               </font>
+            </Text>
+         </children>
+      </AnchorPane>
+      <TextField fx:id="city" layoutX="151.0" layoutY="138.0" prefHeight="50.0" prefWidth="291.0" text="Введите город">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </TextField>
+      <Button fx:id="getData" layoutX="223.0" layoutY="203.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="148.0" text="Узнать погоду">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Button>
+      <Text fx:id="info" fill="#e85050" layoutX="151.0" layoutY="304.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Информация" wrappingWidth="315.13671875">
+         <font>
+            <Font size="41.0" />
+         </font>
+      </Text>
+      <Text fx:id="temp_info" fill="WHITE" layoutX="36.0" layoutY="355.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Температура:">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Text>
+      <Text fx:id="temp_feels" fill="WHITE" layoutX="36.0" layoutY="396.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Ощущается как:">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Text>
+      <Text fx:id="temp_max" fill="WHITE" layoutX="36.0" layoutY="435.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Максимум:">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Text>
+      <Text fx:id="temp_min" fill="WHITE" layoutX="35.0" layoutY="470.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Минимум:">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Text>
+      <Text fx:id="pressure" fill="WHITE" layoutX="36.0" layoutY="508.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Давление:">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>
